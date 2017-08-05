@@ -41,16 +41,6 @@ nav ul li a:hover {
 	background: #4aaaa5;
 }
 
-
-ul.buttons li.btn {
-	display: inline-block;
-}
-
-ul.buttons li.btn img {
-	max-width: 50px;
-	margin-right: 10px;
-}
-
 form {
 	font-family: "Arial", "Helvetica Neue", sans-serif;
 }
@@ -86,26 +76,6 @@ input[type="submit"] {
 	font-size: 20px;
 	border: none;
 	padding: 10px 20px;
-}
-
-li.hangman {
-	background-image: url(../images/hangman.jpg);
-}
-
-li.rpg {
-	background-image: url(../images/rpg.jpg);
-}
-
-li.trivia {
-	background-image: url(../images/trivia.jpg);
-}
-
-li.ucsd {
-	background-image: url(../images/ucsd.jpg);
-}
-
-li.rps {
-	background-image: url(../images/rps.jpg);
 }
 
 footer {
@@ -187,6 +157,35 @@ footer {
 	color: #fff;
 	bottom: 13px;
 	font-size: 22px;
+}
+
+.hangman {
+	background-image: url(../images/hangman.jpg);
+}
+
+.rpg {
+	background-image: url(../images/rpg.jpg);
+}
+
+.trivia {
+	background-image: url(../images/trivia.jpg);
+}
+
+.ucsd {
+	background-image: url(../images/ucsd.jpg);
+}
+
+.rps {
+	background-image: url(../images/rps.jpg);
+}
+
+.btn {
+	display: inline-block;
+}
+
+.btn img {
+	max-width: 50px;
+	margin-right: 10px;
 }
 
 #left {
